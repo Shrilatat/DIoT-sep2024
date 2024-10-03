@@ -1,0 +1,64 @@
+file:///D:/DIOT-Sep24/login.html
+
+file:///D:/DIOT-Sep24/login.html?t1=shrilata&t2=secret
+
+what a get request?
+- i issue request directly on url address bar
+- <form method="get"> or <form>
+- <a href="url">
+
+post?
+<form method="post">
+
+
+
+HTML5 forms:
+13 new form elements:
+16 new form attributes
+
+form attributes:
+- required
+- autofocus
+- placeholder=message
+- max
+- min
+- pattern
+
+layout tags:
+
+
+
+13 new form elements:  <input type=?>
+- email
+- number
+- range
+- color
+- date, month, time..
+- url
+- search
+- tel
+
+
+<audio>
+<video>
+
+
+
+CSS: 3 ways of embedding CSS into my HTML:
+- embedded/internal SS
+- External SS
+- inline SS
+
+
+CSS selectors:
+- tag/html selector eg : p{....}
+- id 
+- class
+
+
+
+Block elements VS Inline elements:
+Block elements: div, para, h1...h6
+Inline elements: <input>, <span>
+
+

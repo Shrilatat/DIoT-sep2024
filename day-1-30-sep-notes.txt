@@ -1,0 +1,66 @@
+Editor:
+Notepad, Notepad++, Visual source code
+
+tags:
+<html>
+<head>
+<body>
+<u>, <i>, <b>
+<br> line break
+<hr> Horizontal ruler
+<ol> Ordered List
+<ul> Unordered List
+<li> List Item  type=a,A,i,I
+
+<img src=?>
+Formatting tags
+<a> Anchor tag
+
+
+Header tags : <h1>...<h6>
+
+
+
+attributes:
+<tag attrib1=value1  attrib2=value2 >
+
+HTML4:
+Container Tags:
+- <div>
+- <p>
+- <span>
+
+
+
+HTML 4 : Form elements : 9 + 3 form elements
+<input type=?>
+
+Text-based:
+ - text
+ - password
+ - hidden
+
+Button-based:
+ - button
+ - submit
+ - reset
+
+Misc-based:
+ - radio
+ - checkbox
+ - file
+
+
+<textarea>
+<select><option> drop down
+<button type="submit">My Button</button>
+
+
+
+
+
+
+
+
+
+

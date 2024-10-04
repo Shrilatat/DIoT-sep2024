@@ -1,0 +1,107 @@
+3 reasons for JS:
+- Client side validation
+- Event handling
+- DOM manipulation
+
+2 parts:
+- language basics
+- DOM
+
+
+Where can i embed JS code:
+- <body>
+- <head>
+- external file (.js)
+
+
+JS is a loosely typed language
+
+
+Scope of JS vars:
+- local
+- global
+
+ //function expressions
+       var a = 100;
+       var b = "hello"
+       var c = a+10/100*56+90;
+
+       function greet(){   //named function
+         document.write("Hello User!!<br>")
+       }
+       //document.write(greet());
+
+       //var d = function(){}   //function expressions
+       var greet1 = function(){
+        document.write("Hello User!!<br>")
+       }
+       //greet1();
+
+
+       function greetUser(username){
+        document.write("Hello " + username + "!!<br>")
+       }
+
+       var greetUser1 = function(uname){
+        document.write("Hello " + uname + "!!<br>")
+       }
+
+       //greetUser1("Akash")
+
+
+       function add(a, b){
+         return a + b;
+       }
+
+       var add1 = function(x,y){
+        return x + y
+       }
+
+
+
+
+       function pow(x, y){
+          return x**y;
+       }
+
+       //document.write(pow(3,2))
+
+       var pow1 = function(x, y){
+        return x**y
+       }
+      
+
+
+
+Functions:
+- user defined functions
+- built-in functions
+
+Eg : parseInt(), parseFloat(), isNan(), isFinite()
+
+
+
+Object:
+1) Every JS obj exposes Props and methods
+
+
+Objects:
+- Pre-defined/core Objects string, date, math, array
+- User-defined Objects
+
+
+String pre-def obj:
+props : length, prototype
+methods
+
+var name = "Babu";
+name.props
+name.methods()
+
+
+
+
+
+
+
+

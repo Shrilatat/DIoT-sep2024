@@ -1,0 +1,105 @@
+Fat arrow/lambda
+  function greet(){   //named function
+         document.write("Hello User!!<br>")
+       }
+       //document.write(greet());
+
+      //function expressions
+       var greet1 = function(){
+        document.write("Hello User!!<br>")
+       }
+       //greet1();
+
+       var greet2 = () => document.write("Hello User!!<br>")
+       //greet2();
+
+
+       function greetUser(username){
+        document.write("Hello " + username + "!!<br>")
+       }
+
+       var greetUser1 = function(uname){
+        document.write("Hello " + uname + "!!<br>")
+       }
+
+       //greetUser1("Akash")
+
+       var greetUser2 = uname => document.write("Hello " + uname + "!!<br>")
+       greetUser2("Amit")
+
+
+       function add(a, b){
+         return a + b;
+       }
+
+       var add1 = function(x,y){
+        return x + y
+       }
+
+       var add2 = (a,b) => a+b;
+       console.log(add2(1,2))
+      // var add2 = (a,b) => { return a+b;}
+
+      function strOps(str){
+        console.log("Str length : ",str.length)
+        console.log("Char at position 0 : ",str.charAt(0))
+        console.log("Str in upper case : ",str.toUpperCase())
+      }
+
+      var strOps1 = function(str){
+        console.log("Str length : ",str.length)
+        console.log("Char at position 0 : ",str.charAt(0))
+        console.log("Str in upper case : ",str.toUpperCase())
+      }
+
+      var strOps2 = str => {
+        console.log("Str length : ",str.length)
+        console.log("Char at position 0 : ",str.charAt(0))
+        console.log("Str in upper case : ",str.toUpperCase())
+      }
+      strOps2("Ayush Nair")
+
+--------------------------
+DOM : Document Object Model
+
+Higher-order functions:
+
+var handle = setInterval(func, ms)
+setTimeout(func, ms) 
+
+clearInterval(handle)
+
+
+
+function f1(){
+   console.log("Hi");
+}
+
+f1()
+
+
+
+-------------------------
+
+property : innerHTML
+
+<tag> area </tag>
+
+<div> result </div>
+
+If its a non-form element : innerHTML
+If its a form element : value
+
+
+
+document.write()
+document.getElementById()
+document.getElementsByTagName()
+document.getElementsByClassName()
+document.getElementsByName()
+
+
+
+
+
+

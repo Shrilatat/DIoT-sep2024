@@ -1,0 +1,147 @@
+Object:
+1) Every JS obj exposes Props and methods
+2) Every prop is readable/writable
+
+
+Objects:
+- Pre-defined/core Objects:  string, date, math, array
+- User-defined Objects
+
+
+String pre-def obj:
+props : length, prototype
+methods
+
+var name = "Babu";
+name.prop
+name.method()
+
+
+substr(), substring(), slice()
+
+
+
+var d1 = new Date();
+
+
+d1.setXXXX()
+d1.getXXXX()
+
+ var arr = [11,22,33,44,55];
+
+
+{
+   //block
+}
+
+if(cons){
+
+}
+
+
+for(....){
+
+}
+
+User-defined Objects:
+- Object Initializer
+- Using class
+- Function constructor  XXXX
+- Object Cons   XXX
+
+
+
+ //Object Initializer
+        //JSON : JavaScript Object Notation
+        var student = {prn:12345, sname:"Akash"}
+        console.log(student.prn, student.sname)  //readable
+
+        var person = {
+            pname : "Shubham",
+            age : 23.5,
+            married : false,
+            hobbies : ["Coding","Movies","Songs"],
+            address : {city:"Pune", state:"Mah"}
+        }
+        console.log(person.pname, person.age,person.married)
+        console.log(person.hobbies[1])
+        console.log(person.address["state"])
+
+
+        var books = [
+            {bid:101, bname:"Core Java", price:400},
+            {bid:102, bname:"JavaScript", price:300},
+            {bid:103, bname:"Learning IoT", price:350},
+            {bid:104, bname:"Core Ajax", price:450}
+        ]
+
+        var str = ""
+        str += "<table border='1'>"
+        for(book of books){
+           str += "<tr><td>"+book.bid+"</td><td>"+ book.bname+"</td><td>"+ book.price+"</td></tr>"
+        }
+        str += "</table>"
+
+        document.write(str)
+
+
+--------------------------
+ //Using class
+1) function will NOT have the function keyword
+2) I cannot use var/let
+
+
+      class Greeter{
+        greet(){
+            console.log("Hello World")
+        }
+      }
+      var o1 = new Greeter();
+      var o2 = new Greeter();
+      var o3 = new Greeter();
+      o1.greet()
+
+
+
+      class Student{
+        constructor(prn, sname){
+            this.prn = prn;
+            this.sname=sname;
+        }
+        display(){
+            console.log(this.prn, this.sname)
+        }
+      }
+      var s1 = new Student(101,"Krishna")
+      var s2 = new Student(102,"Isha")
+      var s3 = new Student(103,"Sharvari")
+
+
+      s1.display()
+
+      s1.prn
+      s1.sname
+
+      s1.
+      var studs = [s1,s2,s3]
+
+
+--------
+var book = {
+         bname:"Java",
+         author:"Shrilata",
+         price:400,
+         display:function(){
+            console.log(this.bname, this.author, this.price)
+         },
+         incrPrice:function(amount){
+            this.price += amount;
+         }
+       }
+
+       book.display()
+       book.incrPrice(100)
+       book.display()
+
+
+

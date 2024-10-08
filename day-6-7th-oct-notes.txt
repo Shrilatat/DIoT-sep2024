@@ -1,0 +1,57 @@
+Higher order func
+geolocation.getCurrentPosition(a1 [, a2])
+
+
+getCurrentPosition(showPosition)
+
+
+function showPosition(position){
+   //extract the coords
+}
+
+
+http://jsonplaceholder.typicode.com/todos
+
+
+
+CDN - Content Delivery Network
+
+jQuery Selectors:
+
+CSS: changing the style of doc
+- tag : h1{...}, p{....}, h2,h3{...}
+- id : #id1{...}
+- class : .c1{.....}
+
+
+JQuery: changing the beh of doc
+- tag : 
+- id : 
+- class : 
+
+
+$("p") : selects all paras <p> document.getElementsByTagName("p")
+$("h1") : select all <h1> tags
+$("a") : selects all <a>
+$("img") : 
+$("tr")
+$("li")
+$("body")
+
+$("p") === jQuery("p")
+
+$("div,p") : selects all <p> and <div>
+
+$("div p") : selects all paras inside a div
+
+
+$("#p1") : selecs that 1 single element hose id is p1
+$("#p1, #p2") :
+
+$(".c1") :  
+
+
+
+
+
+

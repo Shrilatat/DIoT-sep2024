@@ -1,0 +1,76 @@
+filters
+traversal
+loop
+events
+
+AJAX
+SPA, Partial screen updates
+XHR : XmlHttpRequest
+var xhr = new XMLHttpRequest()
+
+xhr.open(http-method, url) 
+xhr.send()
+
+xhr.onreadystatechange = function(){
+}
+
+onreadystatechange
+readyState
+status
+responseText
+responseXML
+
+
+css(), hide(), show(), slideUp(), slideDown(), fadeIn(), fadeout(), fadeTo(), html(), text(), val()
+length
+
+
+var plist = document.getEleemntsByTagName("p")
+for(para of plist){
+
+}
+
+jquery obj vs HTML raw DOM obj  innerHTML
+
+
+$("input") : <input> type=?>
+
+$(":input") : <input>, <textarea>, <select>, <button>
+
+$("input [type='text'])  === $(":text")
+$("input [type='radio'])  ==== $(":radio")
+
+
+
+selector.event(call-back-func)
+$(":submit").click(function(){})
+
+
+$("img").mouseover(function () {
+         $(this).css("opacity", "0.3");
+ });
+
+ $("img").mouseout(function () {
+          $(this).css("opacity", "1.0");
+ });
+
+
+ $("img").on("mouseover mouseout", function(){}
+
+
+on(), off()
+
+$("img").off("mouseout")
+
+<!--
+    <div>
+        <p> This is para-1</p>
+        <p> This is shrilatas para-2</p>
+        <p> This is para-3</p>
+    </div>
+   
+    <button id="btn1">Click here</button>
+-->
+
+
+

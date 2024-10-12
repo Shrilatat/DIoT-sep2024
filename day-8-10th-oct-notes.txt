@@ -1,0 +1,39 @@
+$("p:eq(1)")  filter :  selects 2nd para in HTML doc
+
+$("p").eq(1) : traversal method : selects 2nd para in HTML doc
+
+
+$("div p:first-child")
+$("div p").first() 
+
+
+REPL : Read Evaluate Print Loop
+
+3 types of modules:
+- Core/built-in modules - http, fs, events, util, os require("http")
+- user-defined modules 
+- 3rd party/external modules
+
+npm install package
+require("package")
+
+npm : install, uninstall, update, init
+
+
+http://localhost:3000/
+
+
+MIME type
+text/plain
+text/html
+css/stylesheet
+image/gif
+image/jpg
+audio/wav
+audio/mp3
+
+
+NPM - Node Package Manager
+
+
+

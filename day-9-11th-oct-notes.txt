@@ -1,0 +1,67 @@
+var fs = require("fs")
+
+fs.methods()
+
+fs.readFile()  -- async method
+fs.readFileSync()  -- sync method
+
+rename()
+renameSync()
+
+writeFile()
+writeFileSync()
+
+
+http://localhost:3000/
+http://localhost:3000/process?radius=100
+
+
+https://www.amazon.in/
+https://www.amazon.in/lehenga
+https://www.amazon.in/mousepad
+https://www.amazon.in/kitchen/saucepan
+https://www.amazon.in/garden/spade
+
+
+http://localhost:3000/
+http://localhost:3000/foo
+http://localhost:3000/bar
+
+
+HTTP methods : W3Cg
+- get
+- post
+- put
+- delete
+- head
+
+
+
+<form method="get/post">
+
+
+app.method()
+
+app.get()
+app.post()
+
+app.put()
+app.delete()
+
+
+resp.send(sc, str)
+
+string, arrays, objects, buffer
+
+
+http://localhost:3000/addnos?uname=admin&password=secret
+
+
+GET : req.query.uname -> admin
+      req.query.password -> secret
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+Web App : App available over the web
+
+- Human centric
+- HTML
+
+
+Web Service : Service available over the web
+
+- Application centric
+- data - json, xml, plain text
+
+Web service:
+- SOAP-based - heavyweight ws
+- RESTful - lightweight ws
+
+
+RESTful Web service:
+1) static URL
+
+http://www.someserver.com/myapp/welcome.html
+http://www.someserver.com/myapp/services.pdf
+http://www.someserver.com/myapp/logo.png
+
+
+2) Dynamic URL
+
+Verb/Action-based
+http://www.techarticles.com/articles/getarticle?aid=12345
+http://www.techarticles.com/articles/deletearticle?aid=12345
+http://www.techarticles.com/articles/updatearticle?aid=12345
+http://www.techarticles.com/articles/getAllarticles
+
+http://www.techarticles.com/articles/getarticle?aid=12345
+http://www.techarticles.com/articles/getarticle/12345
+
+
+Noun/Resource-based (Restful URLs)
+http://www.techarticles.com/articles/article?aid=12345
+http://www.techarticles.com/articles/article/12345  : get
+http://www.techarticles.com/articles/article/12345  : delete
+http://www.techarticles.com/articles/article/12345  : put
+
+
+3) HTTP methods: W3c 
+- GET  : Read
+- POST  : Create
+- PUT  : Update
+- DELETE  : Delete
+
+
+4) REST - REpresentational State Transfer
+
+CRUD
+
+
+
+
+
+
+- HEAD, TRACE, OPTIONS, CONNECT, COMMAND
+
+
+
+
+http://localhost:3000/user/Vamsi?age=25
+
+app.get()
+app.post()
+app.put()
+app.delete()
+
+
+POSTman - app
+
+http://localhost:3000/users
+http://localhost:3000/user/Vaishnavi
+
+
+
+
+
+
